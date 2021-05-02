@@ -8,7 +8,7 @@ class ApiRestApplicationTests {
 
 	@Test
 	void contextLoads() {
-		assert(true);
+		
 	}
 
 }
