@@ -8,7 +8,7 @@ class ApiRestApplicationTests {
 
 	@Test
 	void contextLoads() {
-		  System.out.println("Hola usuario bienvenido");
+		assertTrue(true);
 	}
 
 }
