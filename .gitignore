@@ -31,14 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-/.metadata/
-
-### Eclipse ###
- .metadata/
- src/.metadata/
-src/.metadata/.lock
-src/.metadata/.log
-src/.metadata/.plugins/org.eclipse.ui.intro/introstate
-*.xml
-src/.metadata/.mylyn/.taskListIndex/segments_1
-src/.metadata/.mylyn/.taskListIndex/write.lock

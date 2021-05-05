@@ -1,14 +1,13 @@
-package com.tienda.api.ApiRest;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiRestApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		
 	}
 
 }

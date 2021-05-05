@@ -1,8 +1,0 @@
-git log --format='%aN' | sort -u
-
-git log --shortstat --author="Rodrigo Castañón Martínez" | grep -E "fil(e|es) changed" | awk '{files+=$1; inserted+=$4; deleted+=$6} END {print "files changed: ", files, "lines inserted: ", inserted, "lines deleted: ", deleted }'
-git log --shortstat --author="David Cantador" | grep -E "fil(e|es) changed" | awk '{files+=$1; inserted+=$4; deleted+=$6} END {print "files changed: ", files, "lines inserted: ", inserted, "lines deleted: ", deleted }'
-Dave
-git log --shortstat --author="Dave" | grep -E "fil(e|es) changed" | awk '{files+=$1; inserted+=$4; deleted+=$6} END {print "files changed: ", files, "lines inserted: ", inserted, "lines deleted: ", deleted }'
-git log  --shortstat --author="Rodrigo Castañón Martínez" --since="1 Jan, 2013" 
-git shortlog -sn
