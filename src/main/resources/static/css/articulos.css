@@ -1,0 +1,18 @@
+.vj-destacados .card 
+{
+    height: 100%;
+	object-fit: cover;
+	 align-content: center;
+  margin-left: 30%;
+}
+.vj-destacados .card img
+{
+    height: 200px;
+    object-fit: cover;
+}
+
+.vj-cent
+{
+  align-content: center;
+  margin-left: 30%;
+}
